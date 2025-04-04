@@ -180,7 +180,7 @@ export default function Home() {
         </div>
 
         <div className="flex px-[10px] self-start text-left content-start justify-start font-courier_prime text-[#9E9E9E] text-[clamp(24px,5vw,36px)]">
-          <p>i'm</p>
+          <p>i&apos;m</p>
         </div>
       </div>
         
@@ -295,6 +295,10 @@ export default function Home() {
         {/* Printer Base */}
         <div className="w-64 h-10 rounded-b-lg"></div>
       </div>
+    </div>
+    
+    <div>
+
     </div>
 
     {/* Footer section */}
