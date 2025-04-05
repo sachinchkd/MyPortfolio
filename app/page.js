@@ -395,7 +395,7 @@ export default function Home() {
       </div>
 
       <div className="absolute  bottom-0 items-center justify-center flex gap-8  py-9 px-6 md:px-32 font-karla">
-        <h2 className="text-blue-950 font-arimo font-[700]  text-[clamp(16px,3vw,20px)]">Let&aposs Talk :</h2>
+        <h2 className="text-blue-950 font-arimo font-[700]  text-[clamp(16px,3vw,20px)]">Let&apos;s Talk :</h2>
         <h3 className="text-gray-900 font-arimo text-[clamp(14px,2.5vw,16px)]">+977 9864995725</h3>
         <h3 className="text-indigo-950 font-arimo text-[clamp(14px,2.5vw,16px)]">
           <a href="mailto:sachinchakradhar8@gmail.com" className="hover:text-indigo-700">
