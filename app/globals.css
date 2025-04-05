@@ -6,6 +6,49 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary:#DADADA;
+  --secondary: #616161;
+  --tertiary: #0E0E0E
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) transparent; /* Only thumb visible, fully transparent track */
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 6px; /* Adjust as needed */
+  height: 6px;
+  background-color: transparent; /* Fully transparent background */
+}
+
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  visibility: hidden; /* Hide the track */
+}
+
+*::-webkit-scrollbar-button {
+  display: none; /* Hides up/down arrows */
+  width: 20px;
+  height: 0;
+}
+
+*::-webkit-scrollbar-corner {
+  background-color: transparent; /* Hides bottom-right corner */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 20px;
+  border: none;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: var(--tertiary);
 }
 
 @theme inline {
@@ -16,6 +59,7 @@
   --font-courier_prime: var(--font-courier);
   --font-space_grotesk: var(--font-space);
   --font-arimo: var(--font-arimo);
+  --font-karla: var(--font-karla);
   
 }
 
